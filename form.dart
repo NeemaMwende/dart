@@ -5,7 +5,7 @@ void main() {
   stdout.write("Please enter your name: ");
   String name = stdin.readLineSync()!;
 
-  stdout.write("Please enter your age: ");
+//   stdout.write("Please enter your age: ");
   int age;
   while (true) {
     stdout.write("Please enter your age: ");
@@ -20,8 +20,8 @@ void main() {
       print('Please enter a valid number');
     }
   }
-  print('You entered age: $age');
-  int age = int.parse(stdin.readLineSync()!);
+//   print('You entered age: $age');
+//   int age = int.parse(stdin.readLineSync()!);
 
   stdout.write("Please enter your email: ");
   String email = stdin.readLineSync()!;
